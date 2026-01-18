@@ -1,4 +1,4 @@
-# Moviebooking
+# Movie Ticket Booking – Seat Management System
 
 ## Overview
 This project implements a backend-only seat management system for movie shows.
