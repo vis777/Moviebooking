@@ -23,24 +23,23 @@ It focuses on seat availability and booking.
 - Row-level locking is used to prevent race conditions
 - Held seats automatically expire if booking is not completed
 ## How to Run
-
+1. Install Django
 ```bash
-# Install Django
 pip install django
-bash
-Copy code
-# Apply migrations
+```
+2. Apply migrations
+```bash
 python manage.py makemigrations
 python manage.py migrate
-bash
-Copy code
-# Create superuser
+```
+3. Create superuser
+```bash
 python manage.py createsuperuser
-bash
-Copy code
-# Run the server
+```
+4. Run the server
+ ```bash
 python manage.py runserver
-text
-Copy code
-# Access admin panel
+```
+5. Access admin panel
+ ```bash
 http://127.0.0.1:8000/admin
