@@ -25,7 +25,7 @@ It focuses on seat availability and booking.
 
  ## How to Run
 1. Install Django
-   ```bash pip install django
+pip install django
 
 2. Apply migrations
 python manage.py makemigrations
@@ -34,8 +34,8 @@ python manage.py migrate
 3. Create superuser
 python manage.py createsuperuser
 
-4. Run server
+4. Run the server
 python manage.py runserver
 
-5.Access admin panel
+5. Access the admin panel
 http://127.0.0.1:8000/admin
