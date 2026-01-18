@@ -22,20 +22,25 @@ It focuses on seat availability and booking.
 - Seat booking operations run inside database transactions
 - Row-level locking is used to prevent race conditions
 - Held seats automatically expire if booking is not completed
+## How to Run
 
- ## How to Run
-1. Install Django
+```bash
+# Install Django
 pip install django
-
-2. Apply migrations
+bash
+Copy code
+# Apply migrations
 python manage.py makemigrations
 python manage.py migrate
-
-3. Create superuser
+bash
+Copy code
+# Create superuser
 python manage.py createsuperuser
-
-4. Run the server
+bash
+Copy code
+# Run the server
 python manage.py runserver
-
-5. Access the admin panel
+text
+Copy code
+# Access admin panel
 http://127.0.0.1:8000/admin
