@@ -25,8 +25,7 @@ It focuses on seat availability and booking.
 
  ## How to Run
 1. Install Django
-   ```bash
-pip install django
+   ```bash pip install django
 
 2. Apply migrations
 python manage.py makemigrations
